@@ -24,5 +24,6 @@ displayExport('*');
 if (empty($_SESSION['schoolbook'])) {
     $_SESSION['schoolbook'] = generateSchoolBook($data);
 }
+echo "Hello world";
 handleRequest($data);
 
