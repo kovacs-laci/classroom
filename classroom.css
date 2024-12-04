@@ -1,0 +1,133 @@
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+}
+
+button:hover {
+    color: white;
+    background-color: #25a;
+    border-color: #25a;
+}
+
+button:active {
+    font-weight: bold;
+}
+
+button.selected{
+    color:red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.hidden {
+    display: none;
+}
+/* Styles for the toggle line */
+.toggle-line {
+    cursor: pointer;
+    color: #007bff;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.even {
+    background-color: #fff;
+}
+.odd {
+    background-color: white;
+}
+
+/* Arrow icon rotation */
+.toggle-mark {
+    transition: transform 0.2s ease;
+}
+
+.toggle-mark.collapsed {
+    transform: rotate(-90deg); /* Rotate the arrow to the right when collapsed */
+}
+
+.student-row {
+    border-bottom: 1px solid #ccc; /* Adds underline to each row */
+    cursor: pointer; /* Makes row clickable */
+}
+
+/* Hidden marks container */
+.student-marks {
+    padding-left: 20px;
+}
+
+.class-row {
+    cursor: pointer;
+    border-bottom: 2px solid darkgray;
+    background-color: tomato;
+}
+
+.student-row {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background-color: coral;
+}
+
+.subjects-header {
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border-bottom: 1px solid #ccc;
+}
+.schoolbook-header {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+
+.subject-avg {
+    font-weight: bold;
+}
+
+.odd {
+    background-color: lightsalmon;
+}
+
+.even {
+    background-color: lightcoral;
+}
+.student-avg {
+    font-weight: bold;
+    background-color: crimson;
+    color: yellow;
+    border-top: 1px solid black;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.toggle-icon {
+    /*text-align: right;*/
+    /*float: right; !* Moves toggle icon to the end of the row *!*/
+    /*padding-right: 10px;*/
+    /*margin-left: 10px;*/
+    width: 10px;
+    cursor: pointer;
+}
+
+.underline {
+    border-collapse: separate;
+    border-bottom: 1px solid;
+}
+
+.upperline {
+    border-collapse: separate;
+    border-top: 1px solid
+}
+
+.success {
+    background-color: lightgreen;
+}
