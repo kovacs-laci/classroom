@@ -359,7 +359,7 @@ function getSubjectsAvg($classFilter = "*")
     return $result;
 }
 
-function getClassesOrder()
+function getClassesOrder(): array
 {
-
+    return array_keys(getStudentsOrderByClasses()); 
 }
